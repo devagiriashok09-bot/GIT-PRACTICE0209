@@ -15,17 +15,3 @@ easy ordering, and a wide variety of cuisines—all in one place.
 “Your cravings, delivered.”
 “Good food, no waiting.”
 
-export default function Foyer() {
-  return (
-    <div style={{ textAlign: "center" }}>
-      <h2>Foyer Food Delivery</h2>
-      <p>Fresh food, fast delivery — straight to your doorstep.</p>
-
-      <img
-        src="/images/food.png"
-        alt="Food Delivery"
-        style={{ width: "300px", borderRadius: "10px" }}
-      />
-    </div>
-  );
-}
