@@ -1,0 +1,31 @@
+🔹 Short Homepage Content
+
+Delicious meals, delivered fast.
+Foyer connects you with the best local restaurants to bring fresh, 
+tasty food right to your door. Enjoy quick delivery,
+easy ordering, and a wide variety of cuisines—all in one place.
+
+🔹 Features (Compact)
+🍕 Wide variety of dishes
+⚡ Quick & reliable delivery
+🥗 Fresh, quality ingredients
+📱 Easy ordering experience
+🔹 Tagline Options
+“Fast. Fresh. Foyer.”
+“Your cravings, delivered.”
+“Good food, no waiting.”
+
+export default function Foyer() {
+  return (
+    <div style={{ textAlign: "center" }}>
+      <h2>Foyer Food Delivery</h2>
+      <p>Fresh food, fast delivery — straight to your doorstep.</p>
+
+      <img
+        src="/images/food.png"
+        alt="Food Delivery"
+        style={{ width: "300px", borderRadius: "10px" }}
+      />
+    </div>
+  );
+}
